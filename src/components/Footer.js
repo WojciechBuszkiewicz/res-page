@@ -9,19 +9,19 @@ const Footer = () => {
             <nav>
                 <ul>
                     <li>
-                        <Link to='/' exact={'true'}>Home</Link>
+                        <Link to='/res-page/' >Home</Link>
                     </li>
                     <li>
-                        <Link to='menu'>Menu</Link>
+                        <Link to='/res-page/menu'>Menu</Link>
                     </li>
                     <li>
                         <img src={logo} alt="logotype" />
                     </li>
                     <li>
-                        <Link to='gallery'>gallery</Link>
+                        <Link to='/res-page/gallery'>gallery</Link>
                     </li>
                     <li>
-                        <Link to='contact'>contact</Link>
+                        <Link to='/res-page/contact'>contact</Link>
                     </li>
                 </ul>
             </nav>

@@ -17,13 +17,13 @@ function App() {
     <React.Fragment>
       <Header />
       <main>
-        <Route path='/' exact={'true'} component={BannerArt} />
-        <Route path='/' exact={'true'} component={FeaturedDish} />
-        <Route path='/' exact={'true'} component={OpenHoursBanner} />
-        <Route path='/menu/:path' component={SingleDish} />
-        <Route path='/menu' exact={'true'} component={Menu} />
-        <Route path='/gallery' component={Gallery} />
-        <Route path='/contact' component={Contact} />
+        <Route path='/res-page' exact={'true'} component={BannerArt} />
+        <Route path='/res-page' exact={'true'} component={FeaturedDish} />
+        <Route path='/res-page' exact={'true'} component={OpenHoursBanner} />
+        <Route path='/res-page/menu/:path' component={SingleDish} />
+        <Route path='/res-page/menu' exact={'true'} component={Menu} />
+        <Route path='/res-page/gallery' component={Gallery} />
+        <Route path='/res-page/contact' component={Contact} />
       </main>
       <Footer />
     </React.Fragment>

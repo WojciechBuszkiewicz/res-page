@@ -27,16 +27,16 @@ const Header = () => {
                         <div className="navi">
                             <ul>
                                 <li>
-                                    <NavLink to="/" exact>Home</NavLink>
+                                    <NavLink to="/res-page/" exact>Home</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to="/menu">Menu</NavLink>
+                                    <NavLink to="/res-page/menu">Menu</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to="/gallery">Gallery</NavLink>
+                                    <NavLink to="/res-page/gallery">Gallery</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to="/contact">Contact</NavLink>
+                                    <NavLink to="/res-page/contact">Contact</NavLink>
                                 </li>
                             </ul>
                             <div className="social-media-box">
@@ -52,7 +52,7 @@ const Header = () => {
                 <h1>Made with love</h1>
                 <div></div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod minus commodi numquam asperiores amet itaque odio dolore temporibus excepturi odit ad, deleniti ut quos praesentium reiciendis facilis, voluptatibus soluta animi.</p>
-                <button><Link to='/menu'>our menu</Link></button>
+                <button><Link to='/res-page/menu'>our menu</Link></button>
             </div>
         </header >
     );

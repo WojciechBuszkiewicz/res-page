@@ -11,7 +11,7 @@ const Dish = (props) => {
             </div>
             <h4>{name}</h4>
             <span className="price-top">{price}$</span>
-            <button><Link to={`/menu/${url}`}>Check offer</Link></button>
+            <button><Link to={`/res-page/menu/${url}`}>Check offer</Link></button>
         </div>
     );
 }
